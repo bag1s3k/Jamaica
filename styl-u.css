@@ -1,0 +1,199 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    }
+body {
+    margin: 20px 20px 0px 20px;
+    background-image: url("jamajka_background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+.znak {
+    height:260px;
+    position: relative;
+        left:20px;
+        top:-10px;
+    }
+.lokalizace {
+    height:250px;
+    margin: 0 50px 0 0px;
+    position: relative;
+        top:-10px;
+    }
+    
+.vlajka {
+    height: 280px;
+    margin:0 30px 0 30px;
+    }
+.obrazky {
+    display: table;
+    margin: auto;
+    background-image: url("jamajka_background_tmavy.jpg");
+    border:none;
+        padding: 10px 0px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px grey;
+    }
+.nesmysl    {
+    display: table;
+    margin:auto;
+    font-family:arial;
+    font-size: 15pt;
+    border:none;
+        padding: 10px 10px 10px 10px;
+        border-radius:10px;
+    background-image: url("jamajka_background_tmavy.jpg");
+    position: relative;
+        top: 20px;
+    width: 1125px;
+    box-shadow: 10px 10px 5px gray;
+    color:black;
+    }
+.odkazy {
+    display: table;
+    margin:auto;
+    font-family:fantasy;
+    font-size: 30pt;
+    position: relative;
+        top: 1px;
+        left: -490px;
+    text-shadow: 5px 5px 5px grey;
+}
+.nadpis {
+    text-decoration: none;
+    font-size: 60pt;
+    color: black;
+    position:relative;
+        left:20px;
+}
+.poloha {
+    text-decoration:none;
+    color:black;
+    position: absolute;
+        top:41px;
+    transition: 500ms;
+    margin-left: 60px;
+}
+.poloha:hover   {
+    transform: scale(110%);
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.hospodarstvi   {
+    text-decoration: none;
+    color:black;
+    position: absolute;
+        left: 490px;
+        top:41px;
+    transition: 500ms;
+}
+.hospodarstvi:hover {
+    transform: scale(110%);
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.prumysl    {
+    text-decoration: none;
+    color:black;
+    position:absolute;
+        left: 605px;
+        top:41px;
+    transition:500ms;
+}
+.prumysl:hover  {
+    transform: scale(110%);
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.historie   {
+    text-decoration: none;
+    color:black;
+    position:absolute;
+        left:775px;
+        top:41px;
+    transition: 500ms;
+}
+.historie:hover {
+    transform: scale(110%);
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.lokalizece2    {
+    float: left; 
+    margin: 0 10px 0 0;
+    border:none;
+        border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+.cist   {
+    clear:both;
+}
+.zdroj  {
+    text-decoration: none;
+    text-align: right;
+}
+#poloha_odkaz   {
+    text-shadow: 5px 5px 5px gray;
+}
+.souradky   {
+    text-shadow: 3px 3px 3px gray;
+}
+.lide    {
+    display: table;
+    margin:auto;
+    font-family:arial;
+    font-size: 15pt;
+    border:none;
+        padding: 10px 10px 10px 10px;
+        border-radius:10px;
+    background-image: url("jamajka_background_tmavy.jpg");
+    position: relative;
+        top: 40px;
+    width: 1125px;
+    box-shadow: 10px 10px 5px gray;
+    color:black;
+    text-shadow:3px 3px 3px gray;
+}
+.lide_obazek    {
+    height: 400px;
+    float: right; 
+    margin: 5px 10px 0 0;
+    border: none;
+        border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+.ul_vek {
+    margin-left: 30px;
+}
+.lide_text  {
+    margin-left: 30px;
+}
+.text_podnadips_obyvatelstvo    {
+    margin-left: 10px;
+    }
+.clovek_obrazek {
+    height: 400px;
+    float: right; 
+    margin: 6px 0 0 0;
+    border: none;
+        border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 30px;
+    }
+.zdroj_lide {
+    position: absolute;
+        top: 400px;
+        left: 270px;
+    }
+#lide_odkaz {
+    margin-left: 8px;
+}
+.okraje_text_poloha {
+    margin-left: 420px;
+}

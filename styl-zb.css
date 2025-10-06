@@ -1,0 +1,114 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    }
+body {
+    background-image: url("obrazky/nahledy/jamajka_background.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: arial;
+    }
+ul  {
+    margin-left: 30px;
+}
+p, tr  {
+    margin-left: 10px;
+}
+img {
+    margin: 10px;
+}
+.poloha, .obrazky, .lide, .nesmysl, .vlada, .dalsi, #zahlavi, #tabulka    {
+    display: table;
+    margin: auto;
+    font-family:arial;
+    font-size: 15pt;
+    border:none;
+        padding: 10px;
+        border-radius:10px;
+    background-image: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+    width: 1125px;
+    box-shadow: 10px 10px 5px gray;
+    color: black;
+    text-shadow:3px 3px 3px grey;
+    margin-bottom: 25px;
+    }
+.nadpis {
+    text-decoration: none;
+    font-size: 60pt;
+    color: black;
+    padding: 0 300px 0 0;
+}
+.odkazy {
+    font-family:fantasy;
+    font-size: 30pt;
+    text-shadow: 5px 5px 5px grey;
+    margin: auto;
+    display: table;
+}
+.odkazy a  {
+    text-decoration: none;
+    transition: 300ms;
+    margin: 0 20px 0 20px;
+    text-shadow:3px 3px 3px grey; 
+    color: black;
+}
+.odkazy a:hover   {
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.poloha img {
+    float: left; 
+    border:none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+.cist   {
+    clear:both;
+}
+.lide img   {
+    height: 400px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.lide_text  {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.vlada img   {
+    float: left;
+    height: 250px; 
+    margin: 10px;
+    border: none;
+        border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+.vlada ul   {
+    margin-left: 490px;
+}
+.dalsi  {
+    max-height: 600px;
+}
+.dalsi  h4  {
+    margin-left: 5px;
+}
+.obrzek_pristaviste1, .obrazek_texticky    {
+    float: right;
+    height: 350px; 
+    margin: 10px;
+    border: none;
+        border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+    transition: 0.3s;
+}
+.obrzek_pristaviste1:hover {
+    height: 388px;
+    margin: 0;
+}
+.obrazek_texticky:hover    {
+    height: 388px;
+    margin: 0;
+}

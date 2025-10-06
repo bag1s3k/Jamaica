@@ -1,0 +1,370 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    }
+    body {
+        background-image: url("obrazky/nahledy/jamajka_background.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: arial;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    ul  {
+        margin-left: 30px;
+    }
+    p, tr  {
+        margin-left: 10px;
+    }
+    img {
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    }
+    .poloha, .obrazky, .lide, .nesmysl, .vlada, .dalsi, #tabulka, .info_fixed, #zahlavi   {
+        display: table;
+        margin: auto;
+        font-size: 15pt;
+        padding: 10px;
+        border-radius: 10px;
+        background-image: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        width: 1125px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+        color: black;
+        text-shadow: 3px 3px 3px grey;
+        margin-bottom: 25px;
+        }
+    .obrazky    {
+        margin-top: 25px;
+    }
+    .obrazky img    {
+        box-shadow: none;
+    }
+    .poloha img {
+        float: left; 
+    }
+    .cist   {
+        clear:both;
+    }
+    .lide img   {
+        float: right;
+    }
+    .lide_text  {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .vlada img   {
+        float: left;
+        height: 250px;
+    }
+    .vlada ul   {
+        margin-left: 490px;
+    }
+    .dalsi  {
+        max-height: 600px;
+    }
+    .dalsi h4  {
+        margin-left: 5px;
+    }
+    .obrzek_pristaviste1, .obrazek_texticky    {
+        float: right;
+        height: 350px; 
+        transition: 0.3s;
+    }
+    .obrzek_pristaviste1:hover {
+        height: 388px;
+        margin: 0;
+    }
+    .obrazek_texticky:hover    {
+        height: 388px;
+        margin: 0;
+    }
+    #tabulka table  {
+        border: 3px solid black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        margin: 5px 0 0 0;
+        border-collapse: collapse;
+        width: 1125px;
+    }
+    #tabulka th, #tabulka td {
+        border: 2px dashed black;
+        padding: 5px 5px 5px 25px;
+    }
+    #tabulka th {
+        background: rgba(0, 0, 0, 0.2);
+        text-align: left;
+        padding: 5px 5px 5px 15px;
+    }
+    .odkazy   {
+        width: 250px;
+        position: fixed;
+        text-decoration: none;
+        margin: 25px 0 0 65px;
+        background-image: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+    }
+    .odkazy a   {
+        font-family: fantasy;
+        font-size: 20pt;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    .odkazy a:hover   {
+        color: green;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    .odkazy a:active   {
+        color: black;
+    }
+    .odkazy h1   {
+        font-family: fantasy;
+        font-size: 35pt;
+    }
+    .lista     {
+        background: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        border-radius: 0 0 10px 10px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 12px 12px 10px  grey; 
+    }
+    .lista h1  {
+        text-align: center;
+        font-size: 60pt;
+        font-family: fantasy;
+        margin: -100px 0 0 150px;
+    }
+    .lista img {
+        height: 80px;
+        margin: 10px 30px 10px 30px;
+        box-shadow: none;
+    }
+    .obrazek_nadpis_2   {
+        float: right;
+    }
+    .prazdne_misto, .jidlo, .prazdne_misto_2  {
+        background: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        position: fixed;
+        border-radius: 10px;
+        margin: -74px 0 0 65px;
+        width: 270px;
+        z-index: -1;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+    }
+    .prazdne_misto img, .prazdne_misto_2 img {
+        height: 50px;
+        box-shadow: none;
+    }
+    .jidlo    {
+        right: 0;
+        margin: 25px 55px 0 0;
+        padding: 5px;
+    }
+    .jidlo p, .jidlo h1  {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .jidlo h3   {
+        margin-left: 10px;
+    }
+    .jidlo p   {
+        text-align: left;
+        font-size: 15pt;
+        margin-left: 20px;
+    }
+    .prazdne_misto_2    {
+        right: 0;
+        margin: -74px 55px 25px 0;
+        width: 280px;
+    }
+@media only screen and (max-width: 1875px) {
+    * {
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    }
+    body {
+        background-image: url("obrazky/nahledy/jamajka_background.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: arial;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+    ul  {
+        margin-left: 30px;
+    }
+    p, tr  {
+        margin-left: 10px;
+    }
+    img {
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4);
+    }
+    .poloha, .obrazky, .lide, .nesmysl, .vlada, .dalsi, #tabulka, .info_fixed, #zahlavi   {
+        display: table;
+        margin: auto;
+        font-size: 15pt;
+        padding: 10px;
+        border-radius: 10px;
+        background-image: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        width: 1125px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+        color: black;
+        text-shadow: 3px 3px 3px grey;
+        margin-bottom: 25px;
+        }
+    .obrazky    {
+        margin-top: 25px;
+    }
+    .obrazky img    {
+        box-shadow: none;
+    }
+    .poloha img {
+        float: left; 
+    }
+    .cist   {
+        clear:both;
+    }
+    .lide img   {
+        float: right;
+    }
+    .lide_text  {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .vlada img   {
+        float: left;
+        height: 250px;
+    }
+    .vlada ul   {
+        margin-left: 490px;
+    }
+    .dalsi  {
+        max-height: 600px;
+    }
+    .dalsi h4  {
+        margin-left: 5px;
+    }
+    .obrzek_pristaviste1, .obrazek_texticky    {
+        float: right;
+        height: 350px; 
+        transition: 0.3s;
+    }
+    .obrzek_pristaviste1:hover {
+        height: 388px;
+        margin: 0;
+    }
+    .obrazek_texticky:hover    {
+        height: 388px;
+        margin: 0;
+    }
+    #tabulka table  {
+        border: 3px solid black;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        margin: 5px 0 0 0;
+        border-collapse: collapse;
+        width: 1125px;
+    }
+    #tabulka th, #tabulka td {
+        border: 2px dashed black;
+        padding: 5px 5px 5px 25px;
+    }
+    #tabulka th {
+        background: rgba(0, 0, 0, 0.2);
+        text-align: left;
+        padding: 5px 5px 5px 15px;
+    }
+    .odkazy   {
+        width: 250px;
+        position: fixed;
+        text-decoration: none;
+        margin: 25px 0 0 65px;
+        background-image: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+        opacity: 0%;
+    }
+    .odkazy a   {
+        font-family: fantasy;
+        font-size: 20pt;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+    .odkazy a:hover   {
+        color: green;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    .odkazy a:active   {
+        color: black;
+    }
+    .odkazy h1   {
+        font-family: fantasy;
+        font-size: 35pt;
+    }
+    .lista     {
+        background: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        border-radius: 0 0 10px 10px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 12px 12px 10px  grey; 
+    }
+    .lista h1  {
+        text-align: center;
+        font-size: 60pt;
+        font-family: fantasy;
+        margin: -100px 0 0 150px;
+    }
+    .lista img {
+        height: 80px;
+        margin: 10px 30px 10px 30px;
+        box-shadow: none;
+    }
+    .obrazek_nadpis_2   {
+        float: right;
+    }
+    .prazdne_misto, .jidlo, .prazdne_misto_2  {
+        background: url("obrazky/nahledy/jamajka_background_tmavy.jpg");
+        position: fixed;
+        border-radius: 10px;
+        margin: -74px 0 0 65px;
+        width: 270px;
+        z-index: -1;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+        opacity: 0%;
+    }
+    .prazdne_misto img, .prazdne_misto_2 img {
+        height: 50px;
+        box-shadow: none;
+    }
+    .jidlo    {
+        right: 0;
+        margin: 25px 55px 0 0;
+        padding: 5px;
+    }
+    .jidlo p, .jidlo h1  {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .jidlo h3   {
+        margin-left: 10px;
+    }
+    .jidlo p   {
+        text-align: left;
+        font-size: 15pt;
+        margin-left: 20px;
+    }
+    .prazdne_misto_2    {
+        right: 0;
+        margin: -74px 55px 25px 0;
+        width: 280px;
+    }
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    }
+body {
+    margin: 20px 30px 30px 30px;
+    background-image: url("jamajka_background.jpg")
+    }
+.znak {
+    height:260px;
+    }
+.lokalizace {
+    height:250px;
+    margin: 0 50px 0 0px;
+    }
+    
+.vlajka {
+    height: 280px;
+    margin:0 30px 0 30px;
+    }
+.obrazky {
+    display: table;
+    margin: auto;
+    background-image: url("jamajka_background_tmavy.jpg");
+    border:none;
+        padding: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    }
+.nesmysl    {
+    display: table;
+    margin:auto;
+    font-family:arial;
+    border:none;
+        padding: 10px 10px 10px 10px;
+        border-radius:10px;
+    background-image: url("jamajka_background_tmavy.jpg");
+    position: relative;
+        top: 20px;
+    height: 290px;
+    width: 1125px;
+    box-shadow: 10px 10px 5px gray;
+    color:black;
+    }
+.odkazy {
+    font-family:fantasy;
+    font-size: 30pt;
+    position: relative;
+        top: 1px;
+        left: 320px;
+    text-shadow: 5px 5px 5px grey;
+}
+.nadpis {
+    text-decoration: none;
+    font-size: 60pt;
+    color: black;
+}
+.poloha {
+    text-decoration:none;
+    color:black;
+    position:relative;
+        left: 10px;
+}
+.hospodarstvi   {
+    text-decoration: none;
+    color:black;
+    position: relative;
+        left: 15px;
+}
+.prumysl    {
+    text-decoration: none;
+    color:black;
+    position:relative;
+        left: 20px;
+}
+.historie   {
+    text-decoration: none;
+    color:black;
+    position:relative;
+        left:25px;
+}
